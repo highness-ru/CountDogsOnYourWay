@@ -1,0 +1,66 @@
+body {
+    background-image: url("julia-vivcharyk-Z-M1sKVktGM-unsplash.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+.counter-box {
+    background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.85)
+);
+
+    padding: 40px;
+    border-radius: 20px;
+
+    width: 600px;
+    margin: 40px auto;
+
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+#increment-btn {
+    background: #2563eb;
+    color: white;
+}
+
+#save-btn {
+    background: #475569;
+    color: white;
+}
